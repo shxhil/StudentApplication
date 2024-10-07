@@ -1,0 +1,14 @@
+C:\Users\kamoh\source\repos\StudentApplication\StudentEnrolment.data\bin\Debug\net8.0\StudentEnrolment.data.deps.json
+C:\Users\kamoh\source\repos\StudentApplication\StudentEnrolment.data\bin\Debug\net8.0\StudentEnrolment.data.runtimeconfig.json
+C:\Users\kamoh\source\repos\StudentApplication\StudentEnrolment.data\bin\Debug\net8.0\StudentEnrolment.data.dll
+C:\Users\kamoh\source\repos\StudentApplication\StudentEnrolment.data\bin\Debug\net8.0\StudentEnrolment.data.pdb
+C:\Users\kamoh\source\repos\StudentApplication\StudentEnrolment.data\obj\Debug\net8.0\StudentEnrolment.data.csproj.AssemblyReference.cache
+C:\Users\kamoh\source\repos\StudentApplication\StudentEnrolment.data\obj\Debug\net8.0\StudentEnrolment.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamoh\source\repos\StudentApplication\StudentEnrolment.data\obj\Debug\net8.0\StudentEnrolment.data.AssemblyInfoInputs.cache
+C:\Users\kamoh\source\repos\StudentApplication\StudentEnrolment.data\obj\Debug\net8.0\StudentEnrolment.data.AssemblyInfo.cs
+C:\Users\kamoh\source\repos\StudentApplication\StudentEnrolment.data\obj\Debug\net8.0\StudentEnrolment.data.csproj.CoreCompileInputs.cache
+C:\Users\kamoh\source\repos\StudentApplication\StudentEnrolment.data\obj\Debug\net8.0\StudentEnrolment.data.dll
+C:\Users\kamoh\source\repos\StudentApplication\StudentEnrolment.data\obj\Debug\net8.0\refint\StudentEnrolment.data.dll
+C:\Users\kamoh\source\repos\StudentApplication\StudentEnrolment.data\obj\Debug\net8.0\StudentEnrolment.data.pdb
+C:\Users\kamoh\source\repos\StudentApplication\StudentEnrolment.data\obj\Debug\net8.0\StudentEnrolment.data.genruntimeconfig.cache
+C:\Users\kamoh\source\repos\StudentApplication\StudentEnrolment.data\obj\Debug\net8.0\ref\StudentEnrolment.data.dll
