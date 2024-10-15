@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{85FCBB2A-DDFE-4E7F-A751-28FDB838EBD7}|StudentApplication\\StudentApplication.csproj|c:\\users\\kamoh\\source\\repos\\studentapplication\\studentapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85FCBB2A-DDFE-4E7F-A751-28FDB838EBD7}|StudentApplication\\StudentApplication.csproj|solutionrelative:studentapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2FE1C2A-DC29-487A-AC1D-7B8BE820AB76}|StudentEnrolment.data\\StudentEnrolment.data.csproj|c:\\users\\kamoh\\source\\repos\\studentapplication\\studentenrolment.data\\studentenrollmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2FE1C2A-DC29-487A-AC1D-7B8BE820AB76}|StudentEnrolment.data\\StudentEnrolment.data.csproj|solutionrelative:studentenrolment.data\\studentenrollmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{85FCBB2A-DDFE-4E7F-A751-28FDB838EBD7}|StudentApplication\\StudentApplication.csproj|c:\\users\\kamoh\\source\\repos\\studentapplication\\studentapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85FCBB2A-DDFE-4E7F-A751-28FDB838EBD7}|StudentApplication\\StudentApplication.csproj|solutionrelative:studentapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85FCBB2A-DDFE-4E7F-A751-28FDB838EBD7}|StudentApplication\\StudentApplication.csproj|c:\\users\\kamoh\\source\\repos\\studentapplication\\studentapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{85FCBB2A-DDFE-4E7F-A751-28FDB838EBD7}|StudentApplication\\StudentApplication.csproj|solutionrelative:studentapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StudentEnrollmentDBContext.cs",
               "DocumentMoniker": "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentEnrolment.data\\StudentEnrollmentDBContext.cs",
               "RelativeDocumentMoniker": "StudentEnrolment.data\\StudentEnrollmentDBContext.cs",
@@ -43,20 +43,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentApplication\\appsettings.Development.json",
               "RelativeDocumentMoniker": "StudentApplication\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentApplication\\appsettings.Development.json",
               "RelativeToolTip": "StudentApplication\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-04T15:52:18.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentApplication\\Program.cs",
               "RelativeDocumentMoniker": "StudentApplication\\Program.cs",
@@ -64,21 +64,19 @@
               "RelativeToolTip": "StudentApplication\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T15:20:19.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T15:20:19.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentApplication",
+              "DocumentIndex": 2,
+              "Title": "StudentApplication.csproj",
               "DocumentMoniker": "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentApplication\\StudentApplication.csproj",
               "RelativeDocumentMoniker": "StudentApplication\\StudentApplication.csproj",
               "ToolTip": "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentApplication\\StudentApplication.csproj",
               "RelativeToolTip": "StudentApplication\\StudentApplication.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-04T14:25:09.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T14:25:09.641Z"
             }
           ]
         }
