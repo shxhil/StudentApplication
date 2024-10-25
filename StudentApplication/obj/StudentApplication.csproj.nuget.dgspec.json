@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentApplication\\StudentApplication.csproj": {}
+    "D:\\Student\\StudentApplication\\StudentApplication\\StudentApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentApplication\\StudentApplication.csproj": {
+    "D:\\Student\\StudentApplication\\StudentApplication\\StudentApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentApplication\\StudentApplication.csproj",
+        "projectUniqueName": "D:\\Student\\StudentApplication\\StudentApplication\\StudentApplication.csproj",
         "projectName": "StudentApplication",
-        "projectPath": "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentApplication\\StudentApplication.csproj",
-        "packagesPath": "C:\\Users\\kamoh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentApplication\\obj\\",
+        "projectPath": "D:\\Student\\StudentApplication\\StudentApplication\\StudentApplication.csproj",
+        "packagesPath": "C:\\Users\\101104\\.nuget\\packages\\",
+        "outputPath": "D:\\Student\\StudentApplication\\StudentApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\101104\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentEnrolment.data\\StudentEnrolment.data.csproj": {
-                "projectPath": "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentEnrolment.data\\StudentEnrolment.data.csproj"
+              "D:\\Student\\StudentApplication\\StudentEnrolment.data\\StudentEnrolment.data.csproj": {
+                "projectPath": "D:\\Student\\StudentApplication\\StudentEnrolment.data\\StudentEnrolment.data.csproj"
               }
             }
           }
@@ -84,21 +83,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentEnrolment.data\\StudentEnrolment.data.csproj": {
+    "D:\\Student\\StudentApplication\\StudentEnrolment.data\\StudentEnrolment.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentEnrolment.data\\StudentEnrolment.data.csproj",
+        "projectUniqueName": "D:\\Student\\StudentApplication\\StudentEnrolment.data\\StudentEnrolment.data.csproj",
         "projectName": "StudentEnrolment.data",
-        "projectPath": "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentEnrolment.data\\StudentEnrolment.data.csproj",
-        "packagesPath": "C:\\Users\\kamoh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamoh\\source\\repos\\StudentApplication\\StudentEnrolment.data\\obj\\",
+        "projectPath": "D:\\Student\\StudentApplication\\StudentEnrolment.data\\StudentEnrolment.data.csproj",
+        "packagesPath": "C:\\Users\\101104\\.nuget\\packages\\",
+        "outputPath": "D:\\Student\\StudentApplication\\StudentEnrolment.data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\101104\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,7 +105,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -144,6 +142,10 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -167,7 +169,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

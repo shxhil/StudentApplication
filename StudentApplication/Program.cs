@@ -49,7 +49,17 @@ namespace StudentApplication
 
 
             app.MapControllers();
-            
+                                   //async  allow server to handle other requests while waiting
+            app.MapGet("/Courses", async(StudentEnrollmentDBContext context) =>
+            {           //to run without blocking the main thread
+                return  await context.Courses.ToListAsync();
+            });
+
+            app.MapGet("/Courses/{id}", async (StudentEnrollmentDBContext context, int id) =>
+            {
+               return await context.Courses.FindAsync(id) is Course course ? Results.Ok(course) : Results.NotFound("Not found");
+
+            });
 
             app.Run();
         }
