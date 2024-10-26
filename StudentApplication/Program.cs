@@ -60,7 +60,30 @@ namespace StudentApplication
                return await context.Courses.FindAsync(id) is Course course ? Results.Ok(course) : Results.NotFound("Not found");
 
             });
+             app.MapPost("/Courses", async (StudentEnrollmentDBContext context, Course course) =>
+ {
+      await context.AddAsync(course);
+     await context.SaveChangesAsync();
 
+     //return Results.Ok(course);
+     return Results.Created($"/Courses/{course.id}",course);
+
+ });
+ app.MapPut("/Courses/{id}", async(StudentEnrollmentDBContext context,Course course ,int id)=>{
+ var existing = await context.Courses/*.FindAsync(id)*/.AnyAsync( x=> x.id ==id);
+     if (existing == null) return Results.NotFound();
+     context.Update(course);
+     context.SaveChanges();
+     return Results.NoContent();
+ });
+
+ app.MapDelete("/Courses/{id}", async (StudentEnrollmentDBContext context, int id) => { 
+ var record= await context.Courses.FindAsync(id);
+     if (record==null) return Results.NotFound();
+     context.Remove(record);
+     await context.SaveChangesAsync();
+     return Results.NoContent();
+ });
             app.Run();
         }
     }
